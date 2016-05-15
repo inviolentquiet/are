@@ -1,0 +1,116 @@
+/* CSS Document */
+
+
+/* Root = Horizontal, Secondary = Vertical */
+
+ul#navigation {
+  margin: 0;
+  padding: 0;
+  width: 690px; /*For KHTML*/
+  list-style: none;
+  z-index: 100;
+  text-align:right;
+}
+
+ul#navigation li {
+  margin: 0px 4px;
+  padding: 0px;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+  z-index:3000;
+}
+
+ul#navigation ul {
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 24px;
+  left: 0;
+}
+
+ul#navigation ul:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul#navigation ul li {
+  width: 250px;
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important;
+  display: inline; /*For IE*/
+}
+
+
+/* Root Menu */
+ul#navigation a {
+  padding: 0 8px;
+  float: none !important; /*For Opera*/
+  float: left; /*For IE*/
+  display: block;
+  background: none;
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  line-height: 25px;
+  height: auto !important;
+  height: 5%; /*For IE*/
+  min-height:27px;
+  text-transform: uppercase;
+   border-left: 1px solid #666666;
+    border-right: 1px solid #666666;
+    border-top: 1px solid #666666;
+}
+
+/* Root Menu Hover Persistence */
+ul#navigation a:hover,
+ul#navigation li:hover a,
+ul#navigation li.iehover a {
+  color: #FFFFFF;
+    background: none repeat scroll 0 0 rgba(8, 11, 33, 0.3);
+  }
+  
+
+/* 2nd Menu */
+ul#navigation li:hover li a,
+ul#navigation li.iehover li a {
+  float: none;
+  background: none repeat scroll 0 0 rgba(154, 27, 56, 0.8);
+  color: #FFFFFF;
+  border-top:1px solid rgba(255, 255, 255, 0.8);
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navigation li:hover li a:hover,
+ul#navigation li:hover li:hover a,
+ul#navigation li.iehover li a:hover,
+ul#navigation li.iehover li.iehover a {
+  color: #ffffff;/* #882135 */
+  background: none repeat scroll 0 0 rgba(154, 27, 56, 1.0);
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navigation li:hover ul ul,
+ul#navigation li:hover ul ul ul,
+ul#navigation li.iehover ul ul,
+ul#navigation li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navigation li:hover ul,
+ul#navigation ul li:hover ul,
+ul#navigation ul ul li:hover ul,
+ul#navigation li.iehover ul,
+ul#navigation ul li.iehover ul,
+ul#navigation ul ul li.iehover ul {
+  display: block;
+}

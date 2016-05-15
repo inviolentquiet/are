@@ -1,0 +1,212 @@
+/*ARE*/
+
+
+#Asia-Research-and-Engagement-site-wrap
+{	float:left;
+	width: 100%;
+	margin: 0px;
+	text-align:center;
+	height: auto !important;
+	min-height:500px; /* ie 7 fix */
+	z-index: 1;
+}
+
+#Asia-Research-and-Engagement-page-wrap
+{ 	float:none;
+	width:980px;
+	height: auto !important;
+	min-height:500px; /* ie 7 fix */
+	margin: 0px auto; 
+	background: #FFF;
+	background-image: url(../../images/shade_bottom.png);
+	background-repeat:repeat-x;
+	border: 1px solid #cccccc;
+	 }
+	
+#Asia-Research-and-Engagement-header-wrap
+{	float:left;
+	width: 100%;
+	margin: 0px;
+	text-align:center;
+	height: auto !important;
+	min-height:100px; /* ie 7 fix */
+	z-index: 1;
+	background: url(../../images/ARE-header-background.jpg);
+	}	
+	
+#Asia-Research-and-Engagement-header
+{ 	float:none;
+	width:980px;
+	height: 109px;
+	margin: 0px auto;	
+	 }
+	
+	
+#content-1-wrap
+{ 	float:left;
+	text-align:left;
+	margin:0px;
+	width: 845px;
+
+}	
+
+#Asia-Research-and-Engagement-logo
+{	float: left;
+	margin: 0px;
+	width: 252px;
+	height: 109px;
+	text-align: left;
+	border: none;
+	background: none;
+	z-index: 2;
+}
+#holding-logo
+{	float: none;
+	margin: 20px auto;
+	width: 450px;
+	height: 200px;
+	text-align:center;
+	border: none;
+	background: none;
+	z-index: 2;
+}
+#holding-text
+{	float: none;
+	margin: 0px auto;
+	width: 695px;
+	height: 200px;
+	text-align:center;
+	border: none;
+	background: none;
+	z-index: 2;
+}
+
+
+#Asia-Research-and-Engagement-navigation
+{	float:right;
+	margin: 0px;
+	width: 690px;
+	height: 27px;
+	text-align: right;
+	z-index: 3000;
+}
+
+#Asia-Research-and-Engagement-strapline
+{	background: none;
+    border: none;
+    float: right;
+    font-size: 80%;
+    height: 55px;
+    margin: 15px 0 10px;
+    text-align: right;
+    width: 690px;
+    z-index: 3;
+}
+
+hr { width: 80%; text-color:#cccccc; align: center; height:1px; }
+
+/* HOME PAGES - TEMPLATE 1 */
+
+#Asia-Research-and-Engagement-content_1
+{	background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    margin: 30px;
+    padding: 0;
+    text-align: left;
+    width: 600px;
+    z-index: 5;
+	
+}
+#Asia-Research-and-Engagement-content_2
+{
+	float: left;
+	width: 300px;
+	margin: 20px 18px 0px 0px;
+	padding: 0px;
+	background:#ffffff;
+	text-align: left;
+	z-index: 5;
+
+}
+#Asia-Research-and-Engagement-news-box { 
+	background: none repeat scroll 0 0 #ffffff;
+    border: 0 none;
+    margin: 20px 0;
+    padding: 10px;
+	text-align:left;
+    height: 300px;}
+	
+#Asia-Research-and-Engagement-service-wrap-box { 
+	background: none repeat scroll 0 0 #ffffff;
+    border: 0 none;
+    margin: 20px 0;
+    padding: 10px;
+	text-align:left;
+    height: auto;
+	min-height: 300px;}
+
+	
+#Asia-Research-and-Engagement-service-box { 
+	float:left;
+	text-align:left;
+	margin: 30px 18px;
+    padding: 0px;
+	width: 278px;
+    height: 450px;
+	}	
+	
+	#Asia-Research-and-Engagement-service-box ul { font-size: 12px; padding-left: -10px; }
+
+#Asia-Research-and-Engagement-quote-box { border: 1px solid #cccccc; margin: 20px 0px; }
+
+#video { border:1px dotted #cccccc; margin: 20px 0px; }
+
+#Asia-Research-and-Engagement-content_1_case-studies
+{	background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    margin: 30px;
+    padding: 0;
+    text-align: left;
+    width: 425px;
+    z-index: 5;
+	
+}
+
+
+#Asia-Research-and-Engagement-footer-contacts {  
+	background: none repeat scroll 0 0 #EFEFEF;
+    border: 1px solid #CCCCCC;
+    height: 40px;
+    margin: 5px 0;
+    padding: 5px;
+    vertical-align: middle;
+    width: 970px; }
+
+#Asia-Research-and-Engagement-footer-wrap
+{	float:left;
+	width: 100%;
+	margin: 0px auto;
+	text-align:center;
+	height: auto !important;
+	min-height:100px; /* ie 7 fix */
+	z-index: 1;
+}
+
+#Asia-Research-and-Engagement-footer
+{	float:none;
+	width: 980px;
+	height: 140px;
+	margin: 0px auto;
+	text-align: left;
+	padding: 10px 0px 0px 0px;
+	background-image: url(../../images/shade_bottom.png);
+	background-repeat:repeat-x;
+}
+
+#map { height:422px; padding: 10px 0px; background-color:#ffffff; border: 1px solid #882135; border-radius: 10px 10px 10px 10px; overflow: hidden; margin-bottom: 20px;}
+
+.spacer
+{
+	float: none;
+	clear: both;
+}
